@@ -1,6 +1,17 @@
+/**
+ * This class includes a method to find the nth term in the Fibonacci sequence.
+ */
 public class Fibonacci {
     // The following IF statement is a Recursive method that finds the nth term in the Fibonacci sequence
     public static int fibonacci(int n) {
+
+        /**
+         * Using a Recursive method, this returns the nth term in the Fibonacci sequence.
+         *
+         * @param n the positive integer term of the sequence.
+         * @return the nth term result.
+         * @throws IllegalArgumentException if the input term is not a positive integer.
+         */
         if (n <= 0) {
             throw new IllegalArgumentException("Invalid. Try again with a positive integer."); // Negative number error message
         }
